@@ -1,13 +1,274 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <title>clone nubank</title>
+</head>
+
+<body>
+  <!--HEADER-->
+  <header class="header">
+    <nav class="header-container">
+      <div class="header-left">
+        <a><img class="logo" src="/img/nubank-logo-purple.svg" alt="logo"></a>
+        <ul class="header-items">
+          <li><a class="header-links" href="#">Página inicial</a></li>
+          <li><a class="header-links" href="#">Para você <img class="header-icons" src="/img/keyboard_arrow_down.png" alt=""></a></li>
+          <li><a class="header-links" href="#">Para seu negócio <img class="header-icons" src="/img/keyboard_arrow_down.png" alt=""></a></li>
+          <li><a class="header-links" href="#">O Nubank <img class="header-icons" src="/img/keyboard_arrow_down.png" alt=""></a></li>
+          <li><a class="header-links" href="#">Perguntas</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <a class="login" href="#">Login <img class="login-icon" src="/img/login.png" alt=""></a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="header-space"></div>
+  
+  <!-- SECTION 1 - O FUTURO É A RAZÃO QUE A GENTE FAZ PLANOS-->
+  <section class="section-1">
+    <div class="container-1">
+      <div class="left-1">
+        <h1>O futuro é a razão que a<br/> gente faz planos.</h1>
+        <p> Escolha o futuro. Comece a controlar melhor sua vida<br/>financeira com o Nubank</p>
+      </div>
+
+      <div class="right-1">
+        <form class="form">
+          <h2>Ainda não é cliente<br/> Nubank? Cadastre-se e<br/> participe:</h2>
+          
+          <div class="input-container">
+            <label for="cpf">Digite seu CPF</label>
+            <input id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX">
+          </div>
+
+          <button href="" class="btn-continue">
+            Continuar 
+            <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.15479 1.58322L7.04741 7.9962L1.15479 14.4092" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 2 - CONHEÇA NOSSO CARTÃO DE CRÉDITO-->
+  <section class="section-2">
+    <div class="container-2">
+      <div class="left-2">
+        <h1>Conheça nosso Cartão de <br/>Crédito</h1>
+        <p>Pode chamar ele de roxinho.<br/> Além disso, pode chamar ele de<br/> moderno, gratuito e prático <br/>também.</p>
+        <a class="purple-links" href="#">Saiba mais <img class="purple-arrows" src="/img/arrow_forward-purple.png" alt=""></a>
+      </div>
+
+      <div class="right-2">
+        <img class="img-sec-2"  src="/img/section-2.png" alt="homem">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 3 - NUBANK ULTRAVIOLETA-->
+  <section class="section-3">
+    <div class="container-3">
+      <div class="left-3">
+        <h1>Nubank Ultravioleta</h1>
+        <p>O cartão de Crédito<br/> premium para você<br/> viver todas as suas<br/> escolhas</p>
+        <a class="purple-links" href="#">Saiba mais <img class="purple-arrows" src="/img/arrow_forward-purple.png" alt=""></a>
+      </div>
+
+      <div class="right-3">
+        <img class="img-sec-3" src="/img/section-3.png" alt="mulher">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 4 - CONTA DO NUBANK -->
+  <section class="section-4">
+    <div class="container-4">
+      <div class="left-4">
+        <h1>Conta do Nubank</h1>
+        <p>A conta que vai levar você ao<br/> controle da sua vida<br/> financeira.</p>
+        <a class="purple-links" href="#">Sem tarifas e sem complicações <img class="purple-arrows" src="/img/arrow_forward-purple.png" alt=""></a>
+      </div>
+
+      <div class="right-4">
+        <img class="img-sec-4" src="/img/nuconta-inclined-device.png" alt="celular">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 5 - CONTA PJ, CONTROLE O SEU NEGÓCIO COM SUPORTE HUMANO DE VERDADE -->
+  <section class="section-5">
+    <div class="container-5">
+      <div class="left-5">
+        <h1>Conta PJ</h1>
+        <p>Controle o seu<br/> negócio com suporte<br/> humano de verdade.</p>
+        <a class="white-links" href="#">Saiba mais <img class="white-arrows" src="/img/arrow_forward.png" alt=""></a>
+      </div>
+
+      <div class="right-5">
+        <img class="img-sec-5" src="/img/section-5.png" alt="celular">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 6 - NÓS ACREDITAMOS QUE SÓ UMA PESSOA PODE TER CONTROLE SOBRE SUA VIDA FINANCEIRA-->
+  <section class="section-6">
+    <div class="container-6">
+      <div class="left-6">
+        <h1>Nós acreditamos que só<br/> uma pessoa pode ter<br/> controle sobre sua vida<br/> financeira: Você.</h1>
+        <a class="white-links" href="#">Saiba mais sobre como fazemos isso <img class="white-arrows" src="/img/arrow_forward.png" alt=""></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7 - NÃO SE PREOCUPE COM TAXAS ESCONDIDAS -->
+  <section class="section-7">
+    <div class="container-7">
+      <div class="left-7">
+        <h1>NuCommunity<br/> A comunidade oficial do<br/> Nubank para você<br/> tirar dúvidas e compartilhar <br/>ideias.</h1>
+        <a class="white-links" href="#">Faça parte <img class="white-arrows" src="/img/arrow_forward.png" alt=""></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 8 - CONHEÇA NOSSA CENTRAL DE INFORMAÇÕES-->
+  <section class="section-8">
+    <div class="container-8">
+      <div class="left-8">
+        <h1>Conheça nossa central<br/> de informações em caso<br/> de emergências.</h1>
+        <a class="white-links" href="#">Conheça o SOS NU <img class="white-arrows" src="/img/arrow_forward.png" alt=""></a>
+      </div>
+    </div>
+  </section>
+  
+  <!--FOOTER-->
+  <footer class="footer">
+    <nav class="footer-links">
+      <div class="left-links">
+        <ul class="columns"> <!--Ínicio até carreiras-->
+          <li><p>Nubank</p></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Carreiras</a></li>
+          <li><a href="">Perguntas frequentes</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="">Imprensa</a></li>
+          <li><a href="">Nu Impacto</a></li>
+          <li><a href="">Investidores</a></li>
+        </ul>
+
+        <ul class="columns"> <!--Para você até criptomoedas-->
+          <li><p>Explore</p></li>
+          <li><a href="">Comunidade</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">InvestNews</a></li>
+          <li><a href="">Newsletter</a></li>
+          <li><a href="">México</a></li>
+          <li><a href="">Argentina</a></li>
+          <li><a href="">Colômbia</a></li>
+        </ul>
+
+        <ul class="columns"> <!--Para seu negócio até receba com picpay-->
+          <li><p>Transparência</p></li>
+          <li><a href="">Política de Privacidade</a></li>
+          <li><a href="">Política de Compliance</a></li>
+          <li><a href="">Política de Segurança</a></li>
+          <li><a href="">Contratos</a></li>
+          <li><a href="">Relatórios Financeiros</a></li>
+          <li><a href="">Ética e Compliance</a></li>
+          <li><a href="">Dados Abertos</a></li>
+          <li><a href="">SRC</a></li>
+          <li><a href="">Convenção de Boletos</a></li>
+        </ul>
+        
+        <ul class="columns"> <!--central de ajuda até fale com a gente-->
+          <li><p>Fale com a gente</p></li>
+          <li><a href="">0800 608 6236</a></li>
+          <li><a href="">meajuda@nubank.com.br</a></li>
+          <li><a href="">Canal de atendimento em libras</a></li>
+          <li><a href="">Atendimento 24h</a></li>
+        </ul>
+      </div>
+      
+      <div class="right-links">
+        <ul class="columns"> <!--informações até correspondente bancario-->
+          <li><p>Produtos</p></li>
+          <li><a href="">Conta digital</a></li>
+          <li><a href="">Cartão de Crédito</a></li>
+          <li><a href="">Nubank Ultravioleta</a></li>
+          <li><a href="">Função construir limite</a></li>
+          <li><a href="">Empréstimo</a></li>
+          <li><a href="">Conta Pj</a></li>
+          <li><a href="">Cartão de Crédito Pj</a></li>
+          <li><a href="">Nubank Vida</a></li>
+          <li><a href="">Investimentos</a></li>
+        </ul>
+        
+        <ul class="columns"> <!--veja também até portal do desenvolvedor-->
+          <li><p>Veja também</p></li>
+          <li><a href="">Auxílio Emergencial e FGTS</a></li>
+          <li><a href="">Tudo sobre o Pix</a></li>
+          <li><a href="">Fornecedores</a></li>
+        </ul>
+
+        <ul class="columns"> <!--veja também até portal do desenvolvedor-->
+          <li><p>Ouvidoria</p></li>
+          <li><a href="">0800 608 6236</a></li>
+          <li><a href="">ouvidoria@nubank.com.br</a></li>
+          <li><a href="">atendimento das 9h às 18h (dias úteis)</a></li>
+        </ul>
+
+        <ul class="columns columns-end"> <!--veja também até portal do desenvolvedor-->
+          <li><p>Baixe o app</p></li>
+          <li><a href=""><img class="available" src="/img/disponivel-na-app-store-botao.png" alt=""></a></li>
+          <li><a href=""><img class="available" src="/img/disponivel-google-play-badge.png" alt=""></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="footer-end">
+      <div class="left-end">
+        <img class="logo-footer" src="/img/nubank-logo-white.png" alt="">
+        <p>© 2022 Nu Pagamentos S.A - Instituição de Pagamento. 18.236.120/0001-58<br/>
+          Rua Capote Valente, 39 - São Paulo, SP - 05409-000</p>
+      </div>
+
+      <div class="right-end">
+        <ul class="socials">
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-instagram"></i></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="footer-inputs">
+      <div class="input-box">
+        <input id="portugues" type="radio" name="portugues">
+        <label for="portugues">Português</label>
+      </div>
+
+      <div class="input-box">
+        <input id="english" type="radio" name="english">
+        <label for="english">English</label>
+      </div>
+    </div>
+  </footer>
+
+  <!--SCRIPT-->
+  <script src="https://kit.fontawesome.com/2c311a5eb9.js" crossorigin="anonymous"></script>
+</body>
 </html>
