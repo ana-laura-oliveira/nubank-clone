@@ -1,0 +1,44 @@
+.container-5 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  width: min(100%, 1400px);
+  margin: auto;
+  background-color: #4c0677;
+  justify-content: space-evenly;
+}
+
+.right-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.img-sec-5 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-5 h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+  font-family:'Inter', sans-serif;
+  letter-spacing: -0.03em;
+  color: rgb(255, 255, 255);
+}
+
+.left-5 p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #e0c4dd;
+  padding: 0 0 20px 0;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+

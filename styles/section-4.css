@@ -1,0 +1,46 @@
+.container-4 {
+  height: 100vh;
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 0 10px;
+  width: min(100%, 1400px);
+  margin: auto;
+}
+
+
+.left-4 {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.left-4 h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+  font-family:'Inter', sans-serif;
+  letter-spacing: -0.03em;
+  color: rgb(130, 10, 209);
+}
+
+.left-4 p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  padding: 0 0 20px 0;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.right-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.img-sec-4 {
+  height: 500px;
+  padding-right: 50px;
+}

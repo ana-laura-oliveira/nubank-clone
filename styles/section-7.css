@@ -1,0 +1,27 @@
+.container-7 {
+  height: 100vh;
+  display: flex;
+  background-image: url(/img/section-7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -90px;
+  background-color: rgba(0, 0, 0, 0.288);
+  background-blend-mode: color;
+  padding: 0 10px;
+  width: min(100%, 1400px);
+  margin: auto;
+}
+
+.left-7 {
+  padding: 150px;
+}
+
+.left-7 h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  font-family:'Inter', sans-serif;
+  color: white;
+  padding-bottom: 40px;
+}

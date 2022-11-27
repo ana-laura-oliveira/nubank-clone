@@ -1,0 +1,47 @@
+.container-3 {
+  height: 100vh;
+  display: flex;
+  background-color: #eeeeee;
+  align-items: center;
+  padding: 0 10px;
+  width: min(100%, 1400px);
+  margin: auto;
+}
+
+.right-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.img-sec-3 {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-3 {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.left-3 h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+  font-family:'Inter', sans-serif;
+  letter-spacing: -0.03em;
+  color: rgb(130, 10, 209);
+}
+
+.left-3 p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  padding: 0 0 20px 0;
+  letter-spacing: -0.03em;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+}

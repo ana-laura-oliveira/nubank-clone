@@ -1,0 +1,54 @@
+@import url(./header.css);
+@import url(./section-1.css);
+@import url(./section-2.css);
+@import url(./section-3.css);
+@import url(./section-4.css);
+@import url(./section-5.css);
+@import url(./section-6.css);
+@import url(./section-7.css);
+@import url(./section-8.css);
+@import url(./footer.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*font-family: 'Inter', sans-serif;*/
+
+.purple-links {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  font-family:'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(131, 11, 187);
+}
+
+.purple-arrows {
+  height: 18px;
+}
+
+.white-links {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  font-family:'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.white-arrows {
+  height: 18px;
+}
+
+
+
+
