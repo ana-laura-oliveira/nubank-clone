@@ -30,6 +30,17 @@
   justify-content: center;
 }
 
+@media (max-width: 767px) {
+    .right-3 {
+        padding: 0;
+    }
+
+    .img-sec-3 {
+        height: auto;
+        width: 100%;
+    }
+}
+
 .left-3 {
   flex: 1;
   padding-left: 50px;
