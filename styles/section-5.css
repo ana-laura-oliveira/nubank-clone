@@ -1,3 +1,11 @@
+@media (max-width:767px) {
+  .container-5 {
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+  }
+}
+
 .container-5 {
   height: 100vh;
   display: flex;

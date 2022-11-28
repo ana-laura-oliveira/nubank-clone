@@ -1,3 +1,20 @@
+@media (max-width:767px) {
+  .footer {
+    height: auto;
+    width: 100vw;
+  }
+
+  .columns-end {
+    margin: 0;
+  }
+
+  .footer-links {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+  }
+}
+
 .footer {
   background: #111111;
   padding: 40px 0;
@@ -68,28 +85,29 @@
   display: flex;
   border-top: rgb(43, 43, 43) solid 1px;
   border-bottom: rgb(43, 43, 43) solid 1px;
-  justify-content: center;
-  align-items: center;
-  gap: 200px;
+  justify-content: start;
+  align-items: baseline;
+  gap: 240px;
+  padding: 0 30px;
 }
 
 .left-end {
   display: flex;
-  justify-content: center;
   padding: 0 30px;
+  align-items: center;
 }
 
 .left-end p {
   color: white;
   font-family:'Inter', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 22px;
   font-weight: 600;
   padding: 0 30px;
 }
 
 .logo-footer {
-  height: 20px;
+  height: 30px;
 }
 
 .right-end {
@@ -107,7 +125,7 @@
 
 .socials i {
   padding: 0 10px;
-  font-size: 18px;
+  font-size: 25px;
   color: white;
 }
 
@@ -119,7 +137,7 @@
   height: 100px;
   display: flex;
   justify-content: flex-end;
-  padding: 0 40px;
+  padding: 0 110px;
   gap: 20px;
   margin-top: 40px;
 }
@@ -129,8 +147,7 @@
 }
 
 .input-box label {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
   color: rgb(255, 255, 255);
   font-family:'Inter', sans-serif;
 }
